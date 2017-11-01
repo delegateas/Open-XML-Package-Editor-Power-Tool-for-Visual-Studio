@@ -93,6 +93,8 @@ namespace Microsoft.OpenXMLEditor
     [ProvideEditorExtension(typeof(PackageEditorFactory), ".xps", 50)]
     [ProvideEditorExtension(typeof(PackageEditorFactory), ".oxps", 50)]
     [ProvideEditorExtension(typeof(PackageEditorFactory), ".vsix", 50)]
+    [ProvideEditorExtension(typeof(PackageEditorFactory), ".msapp", 50)]
+    [ProvideEditorExtension(typeof(PackageEditorFactory), ".pnp", 50)]
     [ProvideEditorLogicalView(typeof(PackageEditorFactory), "{7651a703-06e5-11d1-8ebd-00a0c90f26ea}")]
     [ProvideEditorExtension(typeof(PartEditorFactory), ".dummyPartExtension", 50)] // editor seems to require an extension, but if we use ".xml" it interferes with the standard XML editor.
     [ProvideEditorLogicalView(typeof(PartEditorFactory), "{7651a703-06e5-11d1-8ebd-00a0c90f26ea}")]
